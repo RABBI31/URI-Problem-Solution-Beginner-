@@ -1,0 +1,6 @@
+seconds = int(input())
+minutes = int(seconds/60)
+remsec = int(seconds%60)
+hours = int(minutes/60)
+remin = int(minutes%60)
+print(f'{hours}:{remin}:{remsec}')
